@@ -19,7 +19,7 @@ export default function Home() {
   const [urls, setUrls] = useState<UrlData[]>([]);
   const [loading, setLoading] = useState(false);
 
-  const API_URL = process.env.NEXT_PUBLIC_API_URL || 'http://localhost:3001';
+  const API_URL = process.env.NEXT_PUBLIC_API_URL || 'https://projeto-encurtador-url-backend-3.onrender.com/';
   const API_KEY = process.env.NEXT_PUBLIC_API_KEY || 'teste123';
 
   const [typedText, setTypedText] = useState('');
